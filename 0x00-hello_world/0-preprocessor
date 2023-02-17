@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Set the C file name
+CFILE="0-preprocessor"
+
+# Run the preprocessor and save the result into the file "c"
+gcc -E $CFILE > c

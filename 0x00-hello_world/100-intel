@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=inte;l $cfile
+gcc -S -masm=inte;l $CFILE

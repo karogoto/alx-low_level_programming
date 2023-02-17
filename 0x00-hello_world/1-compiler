@@ -1,2 +1,2 @@
-#!/bin/bash4
-" gcc -c $CFILE 
+#!/bin/bash
+gcc -c $CFILE

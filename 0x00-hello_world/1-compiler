@@ -1,2 +1,2 @@
-#!/bin/bash
-OFILE="${CFILE%.c}.o" gcc -c $CFILE -o $OFILE
+#!/bin/bash4
+" gcc -c $CFILE 

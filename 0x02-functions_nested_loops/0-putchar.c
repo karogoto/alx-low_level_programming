@@ -1,30 +1,24 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * print_putchar - prints _putchar, followed by a new line
+ */
+void print_putchar(void)
+{
+char putchar_str[] = "_putchar\n";
+int i;
+
+for (i = 0; i < 9; i++)
+_putchar(putchar_str[i]);
+}
+
+/**
+ * main - entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char c = '_';
-
-write(1, &c, 1);
-c = 'p';
-write(1, &c, 1);
-c = 'u';
-write(1, &c, 1);
-c = 't';
-write(1, &c, 1);
-c = 'c';
-write(1, &c, 1);
-c = 'h';
-write(1, &c, 1);
-c = 'a';
-write(1, &c, 1);
-c = 'r';
-write(1, &c, 1);
-c = '\n';
-write(1, &c, 1);
+print_putchar();
 return (0);
 }

@@ -11,6 +11,7 @@ int print_sign(int n);
 void jack_bauer(void);
 int _abs(int n);
 int h1, h2, m1, m2;
+void times_table(void);
 
 #endif /* MAIN_H */
 

@@ -5,16 +5,16 @@
  */
 void jack_bauer(void)
 {
-int h1, h2, m1, m2;
-for (h1 = 0; h1 < 3; h1++)
+int a, b, c, d;
+for (a = 0; a<= 2; a++)
 {
-for (h2 = 0; h2 < 4; h2++)
+for (b = 0; b <=9; b++)
 {
-if (h1 == 2 && h2 == 4)
+if ((a <= 1 && b <= 9) || (a <= 2 && b <= 3))
 break;
-for (m1 = 0; m1 < 6; m1++)
+for (c = 0; m1 <= 5; c++)
 {
-for (m2 = 0; m2 < 10; m2++)
+for (d = 0; d <= 9; d++)
 {
 _putchar(h1 + '0');
 _putchar(h2 + '0');

@@ -24,7 +24,7 @@ _putchar(' ');
 if (result < 100)
 _putchar(' ');
 if (result < 10)
-_putchar(' ')
+_putchar(' ');
 }
 if (result >= 100)
 _putchar(result / 100 + '0');

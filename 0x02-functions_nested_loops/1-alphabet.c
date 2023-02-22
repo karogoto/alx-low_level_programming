@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints the lowercase alphabet followed by a newline
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line
  */
 void print_alphabet(void)
 {
-char letters[] = "abcdefghijklmnopqrstuvwxyz\n";
-int i = 0;
+char letter = 'a';
 
-while (letters[i] != '\0')
+while (letter <= 'z')
 {
-_putchar(letters[i]);
-i++;
+_putchar(letter);
+letter++;
 }
+_putchar('\n');
 }
 

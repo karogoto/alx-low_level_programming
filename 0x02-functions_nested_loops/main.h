@@ -12,8 +12,7 @@ void jack_bauer(void);
 int _abs(int n);
 int h1, h2, m1, m2;
 void times_table(void);
-void print_hello(void)
-int add(int a, int b);;
+int add(int a, int b);
 
 #endif /* MAIN_H */
 

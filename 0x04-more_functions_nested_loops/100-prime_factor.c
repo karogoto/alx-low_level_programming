@@ -1,23 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
-*main - Entry point
-*Return: Always 0 (Success)
-*/
-int main(void)
+ * print_number - prints an integer
+ * @n: integer to be printed
+ */
+void print_number(int n)
 {
-long int n = 612852475143;
-long int i;
-
-for (i = 2; i <= n; i++)
+if (n < 0)
 {
-while (n % i == 0)
-{
-n /= i;
-}
+_putchar('-');
+n = -n;
 }
 
-printf("%ld\n", i - 1);
+if (n / 10)
+{
+print_number(n / 10);
+}
 
-return (0);
+_putchar((n % 10) + '0');
 }

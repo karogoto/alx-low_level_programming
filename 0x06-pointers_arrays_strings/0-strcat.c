@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "stdio.h"
 /**
  * _strcat - Concatenates two strings.
  * @dest: A pointer to the string to be concatenated upon.
@@ -23,5 +23,5 @@ ptr++;
 
 *ptr = '\0';
 
-return (dest);
+return (0);
 }
